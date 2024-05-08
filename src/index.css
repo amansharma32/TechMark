@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+*::selection {
+    background-color: rgb(252, 164, 154);
+ }
+
+
+ * {
+
+   font-family: 'tech';
+
+}
+
+
+@font-face {
+   font-family: 'tech';
+   src: url('./assets/Fonts/tech.ttf');
+   /* Add additional src formats if needed */
+ }

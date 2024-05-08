@@ -27,15 +27,15 @@ function LandingPage() {
         <>
 
 
-            <div className="main w-full " >
+            <div className="main w-full font-['Rejouice-Headline']" >
 
 
 
 
                 <div className="row flex ">
                     <div className=" w-5/12 h-screen p-8 flex flex-col justify-center items-center" >
-                        <h1 className="font-semibold text-3xl text-center mb-9">
-                        Unlock peak performance of your resources by working in a comfortable environment
+                        <h1 className="font-semibold text-3xl text-center mb-9 ">
+                        Unlock Peak Performance of Your Resources by Working in a Comfortable Environment
                         </h1>
                         <p className="text-left mx-auto text-1xl font-normal">
                         We specialize in designing and manufacturing of a comprehensive range of products including air handling units, air washers, air showers and ducted air coolers. Our innovative solutions ensure superior indoor air quality and comfort across various industries and settings.
