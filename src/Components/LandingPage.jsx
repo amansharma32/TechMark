@@ -2,15 +2,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Autoplay, } from 'swiper/modules';
-import image1 from '../assets/Images/10.webp';
-import image3 from '../assets/Images/10.webp';
-import image4 from '../assets/Images/10.webp';
-import image5 from '../assets/Images/10.webp';
-import image6 from '../assets/Images/10.webp';
-import image9 from '../assets/Images/10.webp';
-import image10 from '../assets/Images/10.webp';
-import image11 from '../assets/Images/10.webp';
-import image12 from '../assets/Images/10.webp';
+import image1 from '../assets/Images/1.jpg';
+import image3 from '../assets/Images/2.jpg';
+import image4 from '../assets/Images/3.jpg';
+import image5 from '../assets/Images/3.jpg';
+import image6 from '../assets/Images/3.jpg';
+import image9 from '../assets/Images/3.jpg';
+import image10 from '../assets/Images/3.jpg';
+import image11 from '../assets/Images/3.jpg';
+import image12 from '../assets/Images/3.jpg';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -96,7 +96,7 @@ function LandingPage() {
                                 {images.map((imageUrl, index) => (
                                     <SwiperSlide key={index}>
                                         <img
-                                            className="  h-screen w-full object-fill"
+                                            className="  h-screen w-full object-cover"
                                             src={imageUrl}
                                             alt={`Image ${index + 1}`}
                                         />
