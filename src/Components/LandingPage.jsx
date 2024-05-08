@@ -33,14 +33,9 @@ function LandingPage() {
 
 
                 <div className="row flex ">
-                    <div className=" w-5/12 h-screen p-8 flex flex-col justify-center items-center" style={{
-                        backgroundImage: "url('https://images.pexels.com/photos/7602820/pexels-photo-7602820.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load')",
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        filter: 'brightness(.9)'
-                    }}>
+                    <div className=" w-5/12 h-screen p-8 flex flex-col justify-center items-center" >
                         <h1 className="font-semibold text-5xl text-center mb-9">
-                            Explore The <span className="text-gray-50">Art</span> of Decor
+                            Explore The <span >Art</span> of Decor
                         </h1>
                         <p className="text-left mx-auto text-1xl font-normal">
                             From the heart of your home to bespoke wardrobes and curated furniture selections, we offer a holistic approach to interior design. Our extensive experience encompasses a wide range of aesthetics, from timeless elegance to contemporary minimalism, ensuring your vision is brought to life with meticulous attention…
