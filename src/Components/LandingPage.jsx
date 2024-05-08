@@ -38,7 +38,7 @@ function LandingPage() {
                             Explore The <span >Art</span> of Decor
                         </h1>
                         <p className="text-left mx-auto text-1xl font-normal">
-                            From the heart of your home to bespoke wardrobes and curated furniture selections, we offer a holistic approach to interior design. Our extensive experience encompasses a wide range of aesthetics, from timeless elegance to contemporary minimalism, ensuring your vision is brought to life with meticulous attention…
+                        We specialize in designing and manufacturing of a comprehensive range of products including air handling units, air washers, air showers and ducted air coolers. Our innovative solutions ensure superior indoor air quality and comfort across various industries and settings.
                         </p>
                         <div className="flex flex-col lg:flex-row justify-center mt-4">
                             {/* Item 1 */}
